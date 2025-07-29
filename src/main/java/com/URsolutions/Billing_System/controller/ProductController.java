@@ -11,7 +11,7 @@ import jakarta.annotation.PostConstruct;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = "*") // Allow frontend access
+@CrossOrigin(origins = "billing-software-ecigauf9q-riteshs-projects-eb2687fd.vercel.app") // Allow frontend access
 public class ProductController {
 
     @PostConstruct

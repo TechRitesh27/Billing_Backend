@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/bills")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "billing-software-ecigauf9q-riteshs-projects-eb2687fd.vercel.app")
 public class BillController {
 
     @Autowired
